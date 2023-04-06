@@ -86,6 +86,11 @@ body {
     color: #FCE44D;
 }
 
+button a {
+    text-decoration: none;
+    color: #eee;
+}
+
 /* Inicio Section-2 */
 .contenido {
     padding: 10% 5%;
@@ -361,7 +366,7 @@ font-size: 24px;
 
 /* MEDIAS */
 @media screen and (max-width: 1160px) {
-    .portada__body {
+    .index-section-1 .portada__body {
         height: 100%;
     }
 }
