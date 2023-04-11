@@ -1,0 +1,26 @@
+.navbar-nav {
+    gap: 50px;
+}
+
+.nav-bg-custom {
+    background-color: #000000;
+}
+
+.nav-bg-custom:after {
+    background-color: #374151;
+}
+
+#navbarNav {
+    justify-content: center;
+}
+
+.nav-link {
+    color: #eee;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    font-size: 18px;
+    color: #FCE44D;
+    text-decoration: underline;
+}

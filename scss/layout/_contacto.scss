@@ -1,0 +1,81 @@
+/* Contacto Section-1 */
+.contacto-section-1 .portada__imagen img {
+    width: 100%;
+    height: 100%;
+    max-height: 650px;
+    object-fit: cover;
+}
+
+
+
+/* Contacto Section-2 */
+.contacto-section-2 {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'cont1'
+    'cont2';
+    justify-content: center;
+    padding: 5%;
+    gap: 5%;
+}
+
+.contacto-section-2 h2 {
+    font-size: 40px;
+    color: #FCE44D;
+}
+
+.escribinos {
+    grid-area: cont1;
+    border: 1px solid #FCE44D;
+    border-radius: 10px;
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#caja-mensaje {
+    resize: none;
+}
+
+.nuestros-datos {
+    grid-area: cont2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #FCE44D;
+    border-radius: 10px;
+    padding: 2% 5%;
+}
+
+.nuestros-datos__contenido {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nuestros-datos label {
+font-size: 24px;
+}
+
+.nuestros-datos a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.contacto-datos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.nuestras-redes {
+    display: flex;
+    justify-content: space-between;}
+
+.nuestras-redes img {
+    height: 30px;
+    width: 30px;
+}

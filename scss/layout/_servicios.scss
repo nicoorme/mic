@@ -1,0 +1,65 @@
+/* Inicio Section-1 */
+.servicios-section-1 .portada {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 'p2 p2 p1';
+}
+
+.servicios-section-1 .portada__imagen {
+    grid-area: p2;
+}
+
+.servicios-section-1 .portada__imagen img {
+    width: 100%;
+    height: 100%;
+    max-height: 550px;
+    object-fit: cover;
+}
+
+.servicios-section-1 .portada__body {
+    grid-area: p1;
+    height: 80%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicios-section-1 .portada__body h1 {
+    font-size: 48px;
+    color: #FCE44D;
+}
+
+/* Servicios Section-2 */
+.servicios-section-2 {
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'c1 c2'
+    'c3 c4'
+    'c5 c6';
+    justify-items: center;
+    gap: 50px;
+}
+
+.c1{
+    grid-area: c1;
+}
+.c2{
+    grid-area: c2;
+}
+.c3{
+    grid-area: c3;
+}
+.c4{
+    grid-area: c4;
+}
+.c5{
+    grid-area: c5;
+}
+.c6{
+    grid-area: c6;
+}

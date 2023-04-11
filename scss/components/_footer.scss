@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.footer hr {
+    width: 75%;
+    border: 2px solid #000000;
+}
+
+.footer h3 {
+    font-size: 40px;
+}
+
+.redes-footer {
+    display: flex;
+    gap: 50px;
+}
+
+.redes {
+    display: flex;
+    text-decoration: none;
+    color: #eee;
+    align-items: center;
+    gap: 5px;
+}
+
+.redes img {
+    width: 28px;
+    height: auto;
+    transition: 0.3s;
+}
+
+.redes img:hover {
+    width: 32px;
+}
+
+.redes p {
+    font-size: 12px;
+    margin: 0;    
+    transition: 0.3s;    
+}
+
+.redes p:hover {
+    font-size: 14px;
+}

@@ -1,0 +1,123 @@
+/* Inicio Section-1 */
+.index-section-1 .portada {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 'p1 p2 p2';
+}
+
+.index-section-1 .portada__video {
+    background-color: #0000005a;
+    grid-area: p2;
+}
+
+.index-section-1 .portada__video video {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+    object-fit: cover;
+}
+
+.index-section-1 .portada__body {
+    grid-area: p1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5%;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #000000;
+    height: 80%;
+}
+
+.index-section-1 .portada__body img {
+    width: 30%;
+    min-width: 100px;
+    height: auto;
+}
+
+.index-section-1 .portada__body h1 {
+    font-size: 48px;
+    width: 170%;
+    color: #FCE44D;
+}
+
+button a {
+    text-decoration: none;
+    color: #eee;
+}
+
+/* Inicio Section-2 */
+.contenido {
+    padding: 10% 5%;
+    display: grid;
+    gap: 5%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 'b1 b1 b1 b2 b2';
+}
+
+.body-texto {
+    grid-area: b1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.body-texto h2 {
+    font-size: 40px;
+    color: #FCE44D;
+}
+
+.body-texto p {
+    line-height: 2;
+}
+
+.body-imagen {
+    grid-area: b2;
+    height: 100%;
+    width: 100%;
+}
+
+.body-imagen img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Inicio Section-3 */
+.index-section-3 {
+    padding: 5%;
+    background-color:#FCE44D;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 's1 s2';
+}
+
+.index-section-3 img {
+    grid-area: s1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.index-section-3 .somos-body {
+    padding: 0 10%;
+    grid-area: s2;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-self: center;
+}
+
+.somos-body h2 {
+    font-size: 40px;
+    color: #374151;
+}
+
+.somos-body p {
+    color: #374151;
+    line-height: 2;
+}
